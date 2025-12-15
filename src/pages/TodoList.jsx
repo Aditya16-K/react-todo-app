@@ -7,6 +7,8 @@ const TodoList = () => {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
+    document.title = 'My Todos';
+
     setTodos(getTodos());
   }, []);
 
