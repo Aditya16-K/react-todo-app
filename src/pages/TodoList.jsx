@@ -8,7 +8,6 @@ const TodoList = () => {
 
   useEffect(() => {
     document.title = 'My Todos';
-
     setTodos(getTodos());
   }, []);
 
